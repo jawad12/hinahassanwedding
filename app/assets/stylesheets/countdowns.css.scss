@@ -1,0 +1,35 @@
+// Place all the styles related to the countdowns controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#getting-started {
+  background: none repeat scroll 0 0 #ccc;
+  border-radius: 25px;
+  font-family: fantasy;
+  font-size: 33px;
+  font-weight: bold;
+  line-height: 53px;
+  margin: 0;
+  opacity: 0.6;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 114%;
+  word-spacing: 2px;
+}
+.main-box {
+  left: 20%;
+  position: absolute;
+  top: 154px;
+}
+.text-box {
+  background: none repeat scroll 0 0 #ccc;
+  opacity: 0.6;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 25px;
+  margin: 82px 0 0;
+  line-height: 53px;
+  padding: 20px;
+  width: 115%;
+  text-align: center;
+}

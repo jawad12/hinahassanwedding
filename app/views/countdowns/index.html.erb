@@ -1,0 +1,19 @@
+<div class="banner-div">
+  <div class="banner-holder" style="height: 658px;" >
+      <%= image_tag "index/bg.jpg", height: "100%", width: "100%" %>
+  </div>
+</div>
+<div class="main-box">
+  <div id="getting-started"></div>
+  <div class="text-box">
+    Coming Soon!
+  </div>
+</div>
+ <script type="text/javascript">
+  $(document).ready(function(){
+   $('#getting-started').countdown('2014/12/25 00:00:00', function(event) {
+     $(this).html(event.strftime('%d day %H hours %M minutes <br> %S seconds'));
+   });
+   
+ });
+</script>
